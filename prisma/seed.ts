@@ -28,7 +28,7 @@ function createDatesArray(DatesN: number) {
       }
     }
 
-    let lDate = addDays(fDate, 2);
+    let lDate = addDays(fDate, generateRandomInteger(1, 7));
 
     bookedDates.push([fDate, lDate]);
   }
