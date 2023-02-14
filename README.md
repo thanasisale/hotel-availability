@@ -33,8 +33,8 @@ postgres version 14, or docker with docker compose
 
 > if you provide your own postgres db please inform the .env file with the correct values
 
-### With docker
-
+### With docker 
+> use one of the commands not both
 ```bash
 # To start the db from scratch and automaticaly populate the tables from the ./prisma/seed.ts file.
 # This action will first remove conflicting docker containers and then start the db
