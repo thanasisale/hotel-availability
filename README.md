@@ -47,13 +47,13 @@ $ npm run db:dev:up
 ## Running the app
 
 ```bash
-# Generate the prisma models
+# Generate the prisma models (needs to be done either way)
 npx prisma generate
 
 # To start in watch mode
 $ npm run start:dev
 
-# production mode
+# To start in production mode do these steps
 $ npm run build
 $ npm run start:prod
 ```
