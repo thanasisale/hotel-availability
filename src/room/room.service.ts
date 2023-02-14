@@ -48,7 +48,7 @@ export class RoomService {
         (room) => room.bedsNumber == 2 && !r.includes(room),
       ).length;
 
-      let text = `for ${day.toDateString()} there are ${tripleRooms} triple rooms available and ${doubleRooms} double rooms.`;
+      let text = `For ${day.toDateString()} there are ${tripleRooms} triple rooms and ${doubleRooms} double rooms available.`;
       const resultObj = {
         DayAvailibility: text,
         TripleRoomAvailability: tripleRooms > 0,
